@@ -9,6 +9,7 @@ import {Mail} from "./components/Mail";
 import {AddExpenseView} from "./components/AddExpenseView";
 import {Statistics} from "./components/Statistics";
 import {Login} from "./components/Login";
+import {Register} from "./components/Register";
 
 const Stack = StackNavigator({
     Login: {
@@ -16,6 +17,9 @@ const Stack = StackNavigator({
     },
     Home: {
         screen: Home,
+    },
+    Register: {
+        screen: Register,
     },
     Details: {
         screen: ExpenseDetail,
